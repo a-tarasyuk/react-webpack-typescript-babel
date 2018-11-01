@@ -1,0 +1,38 @@
+{
+  "name": "react-webpack-typescript-babel",
+  "version": "1.0.0",
+  "description": "A sample setup using React, Webpack and Babel to build TypeScript code, and using TypeScript for type-checking.",
+  "scripts": {
+    "type-check": "tsc --noEmit",
+    "type-check:watch": "npm run type-check -- --watch",
+    "build": "webpack --progress --colors --mode=production",
+    "start": "webpack-dev-server --config webpack.config.js --progress --colors --open --mode=development"
+  },
+  "author": {
+    "name": "Alexander T.",
+    "email": "alexander.tarasyuk@outlook.com"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "7.1.2",
+    "@babel/core": "7.1.2",
+    "@babel/plugin-proposal-class-properties": "7.1.0",
+    "@babel/plugin-proposal-object-rest-spread": "7.0.0",
+    "@babel/preset-env": "7.1.0",
+    "@babel/preset-react": "7.0.0",
+    "@babel/preset-typescript": "7.1.0",
+    "babel-loader": "8.0.4",
+    "fork-ts-checker-webpack-plugin": "0.4.14",
+    "html-webpack-plugin": "3.2.0",
+    "typescript": "3.1.5",
+    "webpack": "4.23.1",
+    "webpack-cli": "3.1.2",
+    "webpack-dev-server": "3.1.10"
+  },
+  "dependencies": {
+    "@types/react": "16.4.18",
+    "@types/react-dom": "16.0.9",
+    "react": "16.6.0",
+    "react-dom": "16.6.0"
+  }
+}
