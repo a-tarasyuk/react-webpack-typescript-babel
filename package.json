@@ -33,5 +33,8 @@
     "@types/react-dom": "16.0.11",
     "react": "16.7.0",
     "react-dom": "16.7.0"
+  },
+  "resolutions": {
+    "terser": "3.14.1"
   }
 }
