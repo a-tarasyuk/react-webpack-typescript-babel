@@ -29,10 +29,10 @@
     "webpack-dev-server": "3.4.1"
   },
   "dependencies": {
-    "@types/react": "16.8.17",
-    "@types/react-dom": "16.8.4",
-    "react": "16.8.6",
-    "react-dom": "16.8.6"
+    "@types/react": "^16.8.17",
+    "@types/react-dom": "^16.8.4",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
   },
   "resolutions": {
     "terser": "3.14.1"
