@@ -1,6 +1,6 @@
 {
   "name": "react-webpack-typescript-babel",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A sample setup using React, Webpack and Babel to build TypeScript code, and using TypeScript for type-checking.",
   "scripts": {
     "type-check": "tsc --noEmit",
