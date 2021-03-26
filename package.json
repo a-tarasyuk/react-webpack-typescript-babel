@@ -15,25 +15,25 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "@babel/core": "7.12.17",
-    "@babel/plugin-proposal-class-properties": "7.12.13",
-    "@babel/plugin-proposal-object-rest-spread": "7.12.13",
-    "@babel/preset-env": "7.12.17",
+    "@babel/core": "7.13.10",
+    "@babel/plugin-proposal-class-properties": "7.13.0",
+    "@babel/plugin-proposal-object-rest-spread": "7.13.8",
+    "@babel/preset-env": "7.13.12",
     "@babel/preset-react": "7.12.13",
-    "@babel/preset-typescript": "7.12.17",
+    "@babel/preset-typescript": "7.13.0",
     "babel-loader": "8.2.2",
-    "fork-ts-checker-webpack-plugin": "6.1.0",
-    "html-webpack-plugin": "5.2.0",
+    "fork-ts-checker-webpack-plugin": "6.2.0",
+    "html-webpack-plugin": "5.3.1",
     "http-server": "0.12.3",
-    "typescript": "4.1.5",
-    "webpack": "5.23.0",
+    "typescript": "4.2.3",
+    "webpack": "5.28.0",
     "webpack-cli": "4.5.0",
     "webpack-dev-server": "3.11.2"
   },
   "dependencies": {
-    "@types/react": "17.0.2",
-    "@types/react-dom": "17.0.1",
-    "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "@types/react": "17.0.3",
+    "@types/react-dom": "17.0.3",
+    "react": "17.0.2",
+    "react-dom": "17.0.2"
   }
 }
